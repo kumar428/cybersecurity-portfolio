@@ -144,5 +144,6 @@ Implement server-side transaction validation, multi-factor approval for large tr
 - Broken Access Control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 
 ---
-
+## Lab Evidence (Asset)
+![Day 1 Completion Proof](../assets/day01-screenshot.png)
 
