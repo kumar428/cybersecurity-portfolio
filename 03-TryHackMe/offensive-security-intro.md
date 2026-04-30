@@ -145,5 +145,4 @@ Implement server-side transaction validation, multi-factor approval for large tr
 
 ---
 
-*Report prepared as part of self-directed cybersecurity learning portfolio.*
-*Author: Kumar | Date: 29-04-2026*
+
