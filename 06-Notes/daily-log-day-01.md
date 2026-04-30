@@ -109,5 +109,4 @@
 
 ---
 
-*Log maintained as part of cybersecurity self-study portfolio.*
-*Author: Kumar | Streak: Day 1 of 90*
+
