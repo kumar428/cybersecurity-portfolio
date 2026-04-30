@@ -91,6 +91,9 @@ Once the admin panel was accessed, it was possible to transfer an arbitrary amou
 4. Clicked "Deposit Money"
 5. Balance changed from -$1,232.32 to +$1,767.68
 6. Flag displayed: `BANK-HACKED`
+7. 
+## Lab Evidence (Asset)
+![Day 1 Completion Proof](../assets/day01-thm-offensive-security-complete.png.png)
 
 **Remediation:**
 Implement server-side transaction validation, multi-factor approval for large transfers, and audit logging for all financial operations.
@@ -144,4 +147,4 @@ Implement server-side transaction validation, multi-factor approval for large tr
 - Broken Access Control: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
 
 ---
-![Day 1 Completion Proof](../assets/day01-screenshot.png)
+
