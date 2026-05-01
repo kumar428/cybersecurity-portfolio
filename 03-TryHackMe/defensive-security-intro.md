@@ -36,4 +36,5 @@ Incident Response: Oru attack nadakum pothu step-by-step-ah epdi react pannanum 
 Firewall Management: IP blocking and security rule configuration.
 
 5. Lab Evidence
-6. 
+   ## Lab Evidence (Asset)
+![Day 2 Completion Proof](../assets/day02-thm-Defensive-security-complete.png.png.png)
