@@ -1,49 +1,55 @@
-Date: May 1, 2026
+# 📅 Daily Progress Log | Day 02 - april 30, 2026
 
-Focus: Defensive Security Operations & Incident Research
+## 🎯 Quick Overview
+- **Primary Focus:** Defensive Security Operations & Real-world Breach Analysis
+- **Status:** ✅ 100% Completed (Defensive Lab) | ⏳ 60% (Security Engineering)
+- **Current Streak:** 2 Days 🔥
 
-🎯 Today's Goals
-[x] Complete the Defensive Security Introduction lab.
+---
 
-[x] Research a real-world data breach for Case Study.
+## 🧪 TryHackMe Lab: [Defensive Security Intro](https://tryhackme.com/room/defensivesecurityintro)
 
-[x] Document the SOC Analyst workflow and technical findings.
+### 📊 Lab Metrics
+* **Role:** SOC Analyst
+* **Target:** FakeBank Infrastructure
+* **Objective:** Detect and mitigate a live brute-force attack.
 
-🛠️ Tasks & Labs Completed
-1. Defensive Security Intro (100% Complete ✅)
-Scenario: Protecting "FakeBank" from a live cyber attack.
+### 🛠️ Execution & Methodology
+1. **Detection:** Monitored server logs and identified a massive spike in failed login attempts.
+2. **Analysis:** Pinpointed the attacker's source IP: `32.122.195.63`.
+3. **Response:** Implemented a firewall rule to block all traffic from the malicious IP.
+4. **Resolution:** Successfully secured the bank's database and retrieved the flag.
 
-Action: Analyzed server logs, identified malicious IP (32.122.195.63), and blocked it via Firewall.
+**Flag:** `THM{FAKEBANK-SECURED}`
 
-Flag: THM{FAKEBANK-SECURED}
+### 📸 Evidence (Asset)
+![Day 2 Completion Proof](../assets/day02-thm-Defensive-security-complete.png.png.png)
 
-Evidence:
+---
 
-🔍 Case Study: Cybersecurity Incident Research
-(Intha varam naatandha mukkiyamaana research)
+## 🔍 Case Study: [Tamil Nadu Labour Department Breach (2024)](https://github.com/kumar428/cybersecurity-portfolio)
 
-Topic: Tamil Nadu Labour Department Data Breach (2024)
-Classification: Professional Case Study / Ethical Hacking Assessment
+### 🚨 Incident Summary
+* **Scale:** 7.2 Million records compromised.
+* **Impact:** Leak of PII data (Aadhaar, PAN, Bank Details) of migrant workers.
+* **Attack Vector:** **GSocket (Global Socket)** used for Reverse Tunneling.
 
-1. Incident Overview
-In May and November 2024, the Tamil Nadu Labour Department’s digital infrastructure suffered two major security breaches.
+### 🛡️ Critical Technical Analysis
+* **The GSocket Factor:** It bypassed **NAT** and **Firewalls** by initiating outbound connections which are often trusted.
+* **MFA Failure:** Absence of Multi-Factor Authentication allowed attackers to gain 'root' access easily.
+* **Lesson Learned:** The "Installation" phase of the first breach wasn't cleaned, leading to a second hit in November 2024.
 
-Scale: Approximately 7.2 million records stolen.
+### 💡 Remediation Strategy
+- [ ] **Zero Trust:** Enforce MFA for all administrative logins.
+- [ ] **Egress Filtering:** Block unauthorized P2P/Tunneling protocols at the network edge.
+- [ ] **Encryption:** Encrypt sensitive citizen data "at rest."
 
-Sensitive Data: Included Names, Addresses, [Aadhaar Redacted], PAN Numbers, and Bank Details.
+---
 
-2. Technical Analysis
-The Vector (GSocket): Attackers used GSocket for Reverse Tunneling.
+## 🚀 Tomorrow's Plan (Day 03)
+* [ ] Complete **Experience Cyber Security** (Task 4 & 5).
+* [ ] Run `stage3.py` automation script for Security Engineering.
+* [ ] Start **Section 2: Introduction to Pentesting**.
 
-Critical Failure: 1. Firewall Bypass: GSocket initiated outbound connections, bypassing NAT and firewalls.
-2. MFA Absence: Lack of Multi-Factor Authentication allowed "root" access via compromised credentials.
-3. Persistence: The tunnel acted as a permanent backdoor.
-
-3. Remediation Recommendations
-Zero Trust: Implement MFA for all administrative access.
-
-Egress Filtering: Block P2P and tunneling protocols at the firewall level.
-
-Encryption: Sensitive data must be encrypted at rest.
-
-Student Analyst Conclusion: > "The TN Labour Department breach is a classic 'Living off the Land' attack. Traditional perimeter security is insufficient without Identity Management (MFA) and strict Egress monitoring."
+---
+*Generated as part of FITA Academy - Cybersecurity Professional Course.*
