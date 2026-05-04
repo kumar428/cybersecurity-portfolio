@@ -62,4 +62,8 @@
 ---
 
 ## 📅 Day 3 — Mon May 4, 2026
-(Will be updated today)
+## Day 4 (04-May-2026)
+- Cisco 1.1.3 completed.
+- Network troubleshooting: Ping successful after checking VM network settings.
+- Started Nmap service scan on Metasploitable (192.168.x.x).
+- (Evening plan: Analyze output, create writeup.)
