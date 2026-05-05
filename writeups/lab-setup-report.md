@@ -20,7 +20,7 @@ To set up a personal penetration testing lab with Kali Linux (attacker) and Meta
 
 ### Step 1: Kali Linux Installed & Running
 *(Insert screenshot: VirtualBox showing Kali powered on)*  
-![Kali Running](../assets/day01-kali-poweron.png)
+![Kali Running](../assets/day01-kali-poweron.png.png)
 
 ### Step 2: Kali Terminal Access
 *(Insert screenshot: Kali terminal with prompt)*  
