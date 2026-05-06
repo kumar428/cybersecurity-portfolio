@@ -1,4 +1,4 @@
-# Mini Penetration Test Report – Day 1: Footprinting
+# Mini Penetration Test Report : Footprinting
 
 ## Objective
 To perform footprinting (passive and active) on testphp.vulnweb.com to map its attack surface.
@@ -28,6 +28,8 @@ To perform footprinting (passive and active) on testphp.vulnweb.com to map its a
 ### Shodan
 - IP 104.18.22.190 shows services: HTTP 80, 443
 - Organization: Cloudflare (no direct backend visible)
+- 
+![Footprinting Report](../assets/Footprinting_Report.png.png)
 
 ## Countermeasures
 - Redact sensitive info from Whois (registrar privacy)
