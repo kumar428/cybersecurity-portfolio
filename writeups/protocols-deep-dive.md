@@ -37,15 +37,17 @@
 
 ---
 
+
+
 ## 📸 Proof of Work
 
 | Screenshot | Description |
-|------------|-------------|
-| `day06_dig_output.png` | `dig` queries (A, NS, reverse) |
-| `day06_curl_http.png` | Verbose HTTP request/response with headers |
-| `day06_wireshark_http_stream.png` | Followed HTTP stream in Wireshark |
-| `day06_ftp_login.png` | Successful anonymous FTP login |
-| `day06_ftp_cleartext_password.png` | Cleartext password visible in Wireshark |
+| :--- | :--- |
+| ![DNS Query](../assets/VirtualBox_kali%20Linux_13_05_2026_19_22_17.png) |  DNS Enumeration (dig) |
+| ![HTTP Headers](../assets/VirtualBox_kali%20Linux_13_05_2026_20_36_27.png) |  HTTP Request/Response Headers |
+| ![Wireshark Stream](../assets/VirtualBox_kali%20Linux_13_05_2026_20_52_29.png) |  Wireshark Packet Analysis |
+| ![FTP Login](../assets/VirtualBox_kali%20Linux_13_05_2026_21_02_38.png) |  FTP Authentication Process |
+| ![FTP Cleartext](../assets/VirtualBox_kali%20Linux_13_05_2026_21_16_23.png) |  FTP Cleartext Password Capture |
 
 ---
 
