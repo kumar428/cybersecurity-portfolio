@@ -55,10 +55,10 @@
 ## 📸 Proof of Work
 
 | Screenshot | Description |
-|------------|-------------|
-| `day08_kernel_recon.png` | `uname -a`, `searchsploit` output |
-| `day08_sudo_abuse.png` | `sudo -l` and root shell via `find` |
-| `day08_cron_hijack.png` | Reverse shell listener caught root shell |
-| `day08_writable_passwd.png` | New root user added to `/etc/passwd` |
-| `day08_readable_shadow.png` | Root hash extraction and `john` cracking |
-| `day08_suid_vim.png` | Root shell via SUID `vim` escape |
+|:---|:---|
+| ![Initial Check](../assets/VirtualBox_kali%20Linux_15_05_2026_20_14_04.png) | Verification of file/directory initial state |
+| ![Permission Modification](../assets/VirtualBox_kali%20Linux_15_05_2026_20_19_02.png) |  Changing permissions using numeric/symbolic modes |
+| ![SUID/Sticky Bit](../assets/VirtualBox_kali%20Linux_15_05_2026_20_22_51.png) |  Applying SUID and Sticky bits to targets |
+| ![Find Command](../assets/VirtualBox_kali%20Linux_15_05_2026_20_23_59.png) |  Using `find` to locate misconfigured SUID binaries |
+| ![Exploit Setup](../assets/VirtualBox_kali%20Linux_15_05_2026_20_27_53.png) |  Compiling and preparing the privilege escalation exploit |
+| ![Root Access](../assets/VirtualBox_kali%20Linux_15_05_2026_20_27_37.png) |  Successful exploitation and confirmation of root shell |
