@@ -50,9 +50,9 @@
 
 | Screenshot | Description |
 |:---|:---|
-| ![DevTools Network](../assets/devtools_network.png) | **Image 1:** Analyzing HTTP traffic and network requests in Browser DevTools |
-| ![Edit and Resend](../assets/edit_resend.png) | **Image 2:** Modifying and resending network requests to test endpoints |
-| ![POST Request](../assets/post_request.png) | **Image 3:** Inspecting POST request payloads and form data submissions |
-| ![Cookies Analysis](../assets/cookies.png) | **Image 4:** Reviewing active session cookies and security attributes (Secure/HttpOnly) |
-| ![cURL Requests](../assets/curl_requests.png) | **Image 5:** Generating and executing `curl` commands from the terminal |
-| ![cURL Header](../assets/curl%20header.png) | **Image 6:** Analyzing custom HTTP header injections using `curl -H` |
+| ![DevTools Network](../assets/devtools_network.png) | Analyzing HTTP traffic and network requests in Browser DevTools |
+| ![Edit and Resend](../assets/edit_resend.png) | Modifying and resending network requests to test endpoints |
+| ![POST Request](../assets/post_request.png) | Inspecting POST request payloads and form data submissions |
+| ![Cookies Analysis](../assets/cookies.png) | Reviewing active session cookies and security attributes (Secure/HttpOnly) |
+| ![cURL Requests](../assets/curl_requests.png) |  Generating and executing `curl` commands from the terminal |
+| ![cURL Header](../assets/curl%20header.png) |  Analyzing custom HTTP header injections using `curl -H` |
