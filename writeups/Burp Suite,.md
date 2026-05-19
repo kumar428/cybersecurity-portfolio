@@ -1,6 +1,6 @@
 # 🔐 Burp Suite Day 2 – Sequencer, Decoder, Comparer & Extensions
 
-📍 **Environment:** Kali Linux + Burp Suite Community + Firefox  
+📍 **Environment:**  Burp Suite Community + Firefox  
 🎯 **Target:** `https://demo.testfire.net/login.jsp` (Altoro Mutual – deliberately vulnerable banking app)  
 🛠️ **Tools:** Burp Suite (Sequencer, Decoder, Comparer, Repeater), Param Miner (BApp Store)
 
@@ -24,18 +24,18 @@
   - Request 1: username=`admin' AND '1'='1`, password=anything
   - Request 2: username=`admin' AND '1'='2`, password=anything
 - Compared the responses in Comparer. Differences in response length, error message, or content revealed the injection’s effect.
-- **Observed:** [describe what you saw – e.g., “Response to true condition returned a different error message than false condition”].
+- **Observed:** Response to true condition returned a different error message than false condition
 
 ### 4. Hidden Parameter Discovery with Param Miner
 - Installed **Param Miner** from the BApp Store.
 - Right-clicked the target in the site map and selected “Guess hidden parameters”.
-- **Discovered hidden parameter(s):** [list any found, e.g., `debug`, `admin`, `test`].
+- **Discovered hidden parameter(s):** admin`, `test`.
 - This is a powerful technique for finding debug endpoints, legacy parameters, or unprotected admin functions.
 
 ### 5. SQL Injection Bypass on Login Form
 - In Repeater, crafted a login bypass payload: `' OR '1'='1` in the username field.
 - Left the password blank or arbitrary.
-- **Result:** The server [responded with a successful login / redirected to dashboard].
+- **Result:** The server  redirected to dashboard.
 - Demonstrated that the application concatenates user input directly into an SQL query without sanitisation.
 
 ---
@@ -59,16 +59,7 @@
 
 | Screenshot | Description |
 |------------|-------------|
-| `day12_sequencer_altoro.png` | Sequencer analysis of JSESSIONID token |
-| `day12_decoder_sqli.png` | URL/Base64 encoding of SQLi payloads in Decoder |
-| `day12_comparer_blind_sqli.png` | Comparer diff between true and false SQLi responses |
-| `day12_param_miner_altoro.png` | Param Miner discovering hidden parameters |
-| `day12_repeater_sqli_altoro.png` | Repeater showing SQL injection login bypass |
-
----
-
-## 🔜 Next Steps
-- Move on to authenticated testing on Altoro Mutual (transfer funds, view statements) while proxied through Burp.
-- Use Sequencer on other tokens (CSRF, password reset).
-- Explore other Burp extensions like Autorize for auth testing.
-- Begin **Day 13 – SQL Injection Deep Dive with sqlmap**.
+| ![Sequencer Analysis](https://raw.githubusercontent.com/kumar428/cybersecurity-portfolio/main/assets/sequencer_testfire.png) | **Image 1:** Sequencer analysis of JSESSIONID token randomness and entropy |
+| ![Decoder Testfire](https://raw.githubusercontent.com/kumar428/cybersecurity-portfolio/main/assets/decoder_testfire.png) | **Image 2:** Utilizing Burp Decoder to encode payloads for the Altoro Mutual target |
+| ![Comparer Testfire](https://raw.githubusercontent.com/kumar428/cybersecurity-portfolio/main/assets/comparer_testfire.png) | **Image 3:** Diffing true vs. false Boolean responses in Burp Comparer to find blind SQLi |
+| ![Param Miner Testfire](https://raw.githubusercontent.com/kumar428/cybersecurity-portfolio/main/assets/param_miner_testfire.png) | **Image 4:** Running the Param Miner extension to guess hidden application parameters |
