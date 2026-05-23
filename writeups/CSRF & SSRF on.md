@@ -54,6 +54,6 @@
 
 | Screenshot | Description |
 |------------|-------------|
-| `day16_csrf_request.png` | Original vulnerable request (profile update) |
-| `day16_ssrf_test.png` | SSRF probe to `127.0.0.1` returning internal response |
+| ![CSRF Request](https://raw.githubusercontent.com/kumar428/cybersecurity-portfolio/main/assets/csrf_request.png) |  Original vulnerable request (profile update) lacking anti-CSRF protection |
+| ![SSRF Test](https://raw.githubusercontent.com/kumar428/cybersecurity-portfolio/main/assets/ssrf_test.png) |  SSRF probe to `127.0.0.1` successfully returning internal server responses |
 
