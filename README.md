@@ -63,7 +63,7 @@ All my work is organized in my **[Penetration Tester Portfolio](https://github.c
 
 ### 🔧 VAPT Recon Script
 - Wrote a Bash script to automate initial infrastructure recon (port scan, service detection, basic enumeration)
-  > ⚙️ [`tools/vapt-recon.sh`](tools/vapt-recon.sh)
+  > ⚙️ [`tools/vapt-recon.sh`](tools)
 
 ### 🚩 CTF Writeups
 - Active on **TryHackMe**, documented rooms like Vulnversity
