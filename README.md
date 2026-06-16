@@ -26,27 +26,14 @@ I'm a cybersecurity fresher actively preparing for **Junior Penetration Tester**
 
 ## 🛠️ Technical Skills
 
-**🔍 Offensive Security**
-- Penetration Testing, Vulnerability Assessment, Web App Security, Network Security
-- OWASP Top 10: XSS, SQLi, CSRF, Command Injection, SSRF, File Inclusion
-- Authentication & Session Security, Privilege Escalation (Linux)
-
-**💻 Tools & Platforms**
-- Kali Linux, Burp Suite, Nmap, Metasploit, Wireshark, OWASP ZAP
-- Metasploitable 2, TryHackMe, VirtualBox home lab
-
-**🌐 Networking**
-- TCP/IP, DNS, HTTP/HTTPS, Firewalls, Packet Analysis, Network Scanning
-
-**☁️ Cloud & AI Basics**
-- AWS fundamentals, IAM, Cloud Security concepts
-- Generative AI, Prompt Engineering, LLM Security (CLLMSP in progress)
-
-**📜 Scripting**
-- Bash, Basic Python
-
-**🖥️ OS**
-- Kali Linux, Ubuntu, Windows
+| Domain | Tools & Conceptual Competencies |
+| :--- | :--- |
+| **🔍 Offensive Security** | Penetration Testing, Vulnerability Assessment (VAPT), Web App Security, Network Security, Linux Privilege Escalation |
+| **💀 OWASP Top 10** | XSS, SQLi, CSRF, Command Injection, SSRF, IDOR, File Inclusion, Session Security |
+| **💻 Tools & Platforms** | Kali Linux, Burp Suite, Nmap, Metasploit, Wireshark, OWASP ZAP, Metasploitable 2, VirtualBox |
+| **🌐 Networking** | TCP/IP, DNS, HTTP/HTTPS, Firewalls, Packet Analysis, Network Scanning |
+| **☁️ Cloud & AI Basics** | AWS Fundamentals, IAM, Cloud Security, Generative AI, Prompt Engineering, LLM Security |
+| **📜 Scripting & OS** | Bash Scripting, Basic Python \| Kali Linux, Ubuntu, Windows |
 
 ---
 
@@ -67,21 +54,21 @@ All my work is organized in my **[Penetration Tester Portfolio](https://github.c
 - Set up a virtual lab with **Kali Linux + Metasploitable 2**
 - Performed full recon, enumeration, and exploitation using Nmap & Metasploit
 - Delivered a professional VAPT report with findings, risk levels, and remediation
-  > 📄 [`projects/penetration-testing/reports`](https://github.com/kumar-palanivelu-pentester/penetration-tester-portfolio)
+  > 📄 [`projects/penetration-testing`](projects/penetration-testing)
 
 ### 🌐 Web Application Security Testing
 - Tested vulnerable apps for **OWASP Top 10** vulnerabilities manually and with Burp Suite
 - Documented each vulnerability class in detailed markdown notes
-  > 📝 [`writeups/`](https://github.com/kumar-palanivelu-pentester/penetration-tester-portfolio)
+  > 📝 [`writeups/`](writeups)
 
 ### 🔧 VAPT Recon Script
 - Wrote a Bash script to automate initial infrastructure recon (port scan, service detection, basic enumeration)
-  > ⚙️ [`tools/vapt-recon.sh`](https://github.com/kumar-palanivelu-pentester/penetration-tester-portfolio)
+  > ⚙️ [`tools/vapt-recon.sh`](tools/vapt-recon.sh)
 
 ### 🚩 CTF Writeups
 - Active on **TryHackMe**, documented rooms like Vulnversity
 - Walkthroughs in PDF and markdown formats
-  > 🗂️ [`CTF Writeups/vulnversity`](https://github.com/kumar-palanivelu-pentester/penetration-tester-portfolio)
+  > 🗂️ [`CTF Writeups/ vulnversity`](<CTF Writeups/ vulnversity>)
 
 ---
 
